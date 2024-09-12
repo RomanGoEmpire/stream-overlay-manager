@@ -13,12 +13,8 @@ With this app, you can edit:
     - Country image
 - Commentator names
 
-
 ### Example usage of a `.txt` file in an OBS scene
 <img width="60%" src="docs/obs_txt_example.png" >
-
-
-
 
 ## Quickstart
 1. Clone this repository.
