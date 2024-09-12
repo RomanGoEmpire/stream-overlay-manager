@@ -6,7 +6,7 @@ headless = true
 gatherUsageStats = false
 
 [theme]
-base = "light"
+base = "dark"
 # backgroundColor="#FFFFFF"
 # primaryColor=
 # secondaryBackgroundColor =

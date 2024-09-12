@@ -74,7 +74,7 @@ def commentator_selectbox(column, index: int) -> Player:
 
 
 players = load_json(PLAYERS_DATA_PATH)
-commentators = load_json(COMMENTATOR_DATA_PATH)
+commentators = [Player(name="", rank="", country="")] + load_json(COMMENTATOR_DATA_PATH)
 
 
 st.title("Stream Overlay Manager")
@@ -116,7 +116,7 @@ if st.button("Update", type="primary"):
     write_player(WHITE_PATH, white_player)
 
     for i, commentator in enumerate(selected_commentators):
-        with open(f"{COMMENTATOR_PATH}/commentator_{i}.txt", "w") as f:
+        with open(f"{COMMENTATOR_PATH}/commentator_{i+1}.txt", "w") as f:
             f.write(f"{commentator.name} {commentator.rank}".upper())
 
     st.rerun()
