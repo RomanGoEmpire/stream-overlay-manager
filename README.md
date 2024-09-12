@@ -1,20 +1,24 @@
 # Stream Overlay Manager
 A Streamlit app to edit `.txt` files used in [OBS](https://obsproject.com/de) scenes for commentary on [Go](https://en.wikipedia.org/wiki/Go_(game)).
 
-![docs/obs_txt_example.png]
-Example usage of a `.txt` file in an OBS scene.
-
 With this app, you can edit:
--  Tournament name
--  Black player
-  - Name
-  - Rank
-  - Country image (SVG)
--  White player
-  - Name
-  - Rank
-  - Country image
--  Commentator names
+- Tournament name
+- Black player
+    - Name
+    - Rank
+    - Country image (SVG)
+- White player
+    - Name
+    - Rank
+    - Country image
+- Commentator names
+
+
+### Example usage of a `.txt` file in an OBS scene
+<img width="60%" src="docs/obs_txt_example.png" >
+
+
+
 
 ## Quickstart
 1. Clone this repository.
